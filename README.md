@@ -9,6 +9,8 @@ Ensure you have installed the emscripten C compiler (emcc) as per the following 
 
 **decode.c** - Primary wasm decoder <br>
 **decode.js** - Wasm bootstraper <br>
+
+Folders:
 * **giffy/** - Modified giffy <br>
 
 Simply run `build.sh` from base directory to build and launch simple python http file server.
