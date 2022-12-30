@@ -7,6 +7,6 @@ This code builds upon [tinywasm](https://github.com/spacehen/tinywasm) to create
 # Info
 **decode.c** - Primary wasm decoder <br>
 **decode.js** - Wasm bootstraper <br>
-**giffy/** - Modified giffy executable <br>
+* **giffy/** - Modified giffy <br>
 
 Simply run `build.sh` from base directory to build and launch simple python http file server.
