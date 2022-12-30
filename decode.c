@@ -1,3 +1,7 @@
+/* base.c - stegwasm C source
+ * Author: spacehen (Dylan Muller)
+ */
+
 #define NULL 0
 #define STR_MAX 255
 
