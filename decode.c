@@ -1,4 +1,4 @@
-/* base.c - stegwasm C source
+/* becode.c - stegwasm C source for decoder
  * Author: spacehen (Dylan Muller)
  */
 
