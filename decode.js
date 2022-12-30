@@ -1,6 +1,7 @@
 /* load.js - wasm-steg javascript loader
  * Author: spacehen (Dylan Muller)
  */
+
 // Use UintXArray for read/write to memory.
 // Use array view to set VM memory.
 
