@@ -17,6 +17,7 @@ void decode(char * source, int len)
   char *c_ptr = source;
   char *pl_buf;
   int g_l = 0;
+	
   while(c_ptr < source+len){
     c = *c_ptr;
     if (c != '\0') {
@@ -32,7 +33,6 @@ void decode(char * source, int len)
           c = *c_ptr;
           c_ptr+=1;
 	        pl_buf[i] = c;
-
         }
       }
      
