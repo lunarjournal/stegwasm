@@ -7,8 +7,8 @@ This code builds upon [tinywasm](https://github.com/spacehen/tinywasm) to create
 # Info
 Ensure you have installed the emscripten C compiler (emcc) as per the following [guide](https://emscripten.org/docs/getting_started/downloads.html).
 
-**decode.c** - Primary wasm decoder written in C<br>
-**decode.js** - Wasm bootstraper <br>
+`decode.c` - Primary wasm decoder written in C<br>
+`decode.js` - Wasm bootstraper <br>
 
 Folders:
 * `giffy` - Modified giffy <br>
