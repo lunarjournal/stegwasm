@@ -1,5 +1,5 @@
 /* load.js - wasm-steg javascript loader
- * Author: spacehen (Dylan Muller)
+ * Author: (Dylan Muller)
  */
 
 // Use UintXArray for read/write to memory.
