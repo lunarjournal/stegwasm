@@ -1,5 +1,5 @@
 /* becode.c - stegwasm C source for decoder
- * Author: spacehen (Dylan Muller)
+ * Author: (Dylan Muller)
  */
 
 #define NULL 0
