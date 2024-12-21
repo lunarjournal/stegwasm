@@ -3,7 +3,7 @@
 #include "giffy.h"
 #include <string.h>
 
-// Modified by spacehen (Dylan Muller)
+// Modified by (Dylan Muller)
 
 /////  E N C O D E R  /////
 
