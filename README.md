@@ -1,6 +1,6 @@
 # stegwasm
 
-`stegwasm` - A simple steganography `web-assembly` (wasm) demo in `C`.
+`stegwasm` - A simple steganography `web-assembly` `(wasm)` demo in `C`.
 
 This code builds upon [tinywasm](https://github.com/lunarjournal/tinywasm) to create a web assembly binary that decodes and executes javascript code embedded in a `GIF` file.
 
