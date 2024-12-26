@@ -9,7 +9,7 @@ A modified version of [`giffy`](https://github.com/vipyne/giffy) is provided to 
 # Info
 Ensure you have installed the `emscripten` `C` compiler (emcc) as per the following [`guide`](https://emscripten.org/docs/getting_started/downloads.html).
 
-`decode.c` - primary wasm decoder written in `C`.<br>
+`decode.c` - primary `wasm` decoder written in `C`.<br>
 `decode.js` - `wasm` bootstraper. <br>
 
 Folders:
