@@ -22,24 +22,24 @@ void decode(char * source, int len)
     c = *c_ptr;
     if (c != '\0') {
       if (last_c == (signed char)0x21 && 
-          c == (signed char)0xFE) {
+          c == (signed char)0xFE) 
+      {
         c_ptr+=1;
       	int  * len_ptr = ( int *)c_ptr;
         int length = *len_ptr;
         c_ptr+=4;
       	pl_buf = (char*)malloc(sizeof(char) * length + 1);
         g_l = length -1;
-      	for(int i = 0; i < length; ++i) {
+      	for(int i = 0; i < length; ++i)
+	{
           c = *c_ptr;
           c_ptr+=1;
-	        pl_buf[i] = c;
+	  pl_buf[i] = c;
         }
       }
-     
       last_c = c;
     }
      c_ptr+=1;
-  
 } 
 
 // Decode complete, init payload!
