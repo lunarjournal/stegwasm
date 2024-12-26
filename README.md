@@ -9,13 +9,13 @@ A modified version of [`giffy`](https://github.com/vipyne/giffy) is provided to 
 # Info
 Ensure you have installed the `emscripten` `C` compiler (emcc) as per the following [`guide`](https://emscripten.org/docs/getting_started/downloads.html).
 
-`decode.c` - Primary wasm decoder written in C<br>
-`decode.js` - Wasm bootstraper <br>
+`decode.c` - Primary wasm decoder written in `C`.<br>
+`decode.js` - `wasm` bootstraper. <br>
 
 Folders:
-* `/giffy` - Modified giffy <br>
+* `/giffy` - Modified `giffy`. <br>
 
-Simply run `build.sh` from base directory to build and launch simple python http file server.
+Simply run `build.sh` from base directory to build and launch simple `Python` `http` file server.
 
 # Signature
 
